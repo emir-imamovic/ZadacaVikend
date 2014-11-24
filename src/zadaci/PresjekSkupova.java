@@ -18,7 +18,7 @@ public class PresjekSkupova {
 			System.out.println("Skup S1 je sadrzan u skupu S2.");
 		}
 		if (a < c && b < d) {
-			for (int i = b; i <= d; i++) {
+			for (int i = c; i <= b; i++) {
 				presjek += i + " ";
 			}
 			System.out.println("Presjek skupova je: " + presjek);
